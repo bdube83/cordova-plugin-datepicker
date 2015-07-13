@@ -38,7 +38,14 @@ phonegap local plugin add cordova-plugin-datepicker
 ```bash
 <gap:plugin name="cordova-plugin-datepicker" source="npm" />
 ```
+## Installation Material Design
+	The easiest way to add the Material DateTime Picker library to your project is by adding it as a dependency to your `build.gradle`.
 
+	`dependencies {
+		compile 'com.wdullaer:materialdatetimepicker:1.4.1'
+	}`
+
+	Please see the [Material Design](https://github.com/wdullaer/MaterialDateTimePicker) library for more information.
 
 ## Usage
 
